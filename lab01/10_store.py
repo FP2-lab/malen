@@ -53,3 +53,33 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
 # TODO здесь ваш код
+chair_code = goods['Стул']
+table_code = goods['Стол']
+sofa_code = goods['Диван']
+print(f'цена лампы', store[lamp_code][0]['price'])
+print()
+print('склад 1 - цена стола', store[table_code][0]['price'])
+print('склад 2 - цена стола', store[table_code][1]['price'])
+print()
+print('склад 1 - цена Диван', store[sofa_code][0]['price'])
+print('склад 2 - цена Диван', store[sofa_code][1]['price'])
+print()
+print('склад 1 - цена Стул', store[chair_code][0]['price'])
+print('склад 2 - цена Стул', store[chair_code][1]['price'])
+print('склад 3 - цена Стул', store[chair_code][2]['price'])
+print()
+print('склад 1 - кол-во столов', store[table_code][0]['quantity'])
+print('склад 2 - кол-во столов', store[table_code][1]['quantity'])
+
+print('склад 1 - цена всех столов', store[table_code][0]['quantity'] * store[table_code][0]['price'])
+print('склад 2 - цена всех столов', store[table_code][1]['quantity'] * store[table_code][1]['price'])
+print('всего - цена всех столов', store[table_code][0]['quantity'] * store[table_code][0]['price'] + store[table_code][1]['quantity'] * store[table_code][1]['price'] )
+
+print('склад 1 - кол-во стульев', store[chair_code][0]['quantity'])
+print('склад 2 - кол-во стульев', store[chair_code][1]['quantity'])
+print('склад 2 - кол-во стульев', store[chair_code][2]['quantity'])
+
+print('склад 1 - цена всех стульев', store[chair_code][0]['quantity'] * store[chair_code][0]['price'])
+print('склад 2 - цена всех стульев', store[chair_code][1]['quantity'] * store[chair_code][1]['price'])
+print('склад 3 - цена всех стульев', store[chair_code][2]['quantity'] * store[chair_code][2]['price'])
+print('всего - цена всех стульев', store[chair_code][0]['quantity'] * store[chair_code][0]['price'] + store[chair_code][1]['quantity'] * store[chair_code][1]['price'] + store[chair_code][2]['quantity'] * store[chair_code][2]['price']  )
