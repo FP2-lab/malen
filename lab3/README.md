@@ -7,13 +7,14 @@
 ## описание 
 #### 1 часть 
 первый код с рекурсией второй без
-![alt text](image-2.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
 #### 2 часть
 первый код с рекурсией второй без
-![alt text](image-3.png)
-![alt text](image-4.png)
+![Alt text](image-8.png)
+![Alt text](image-9.png)
 ## Результаты вычислений
-![alt text](image-1.png)
+![Alt text](image-5.png)
 ## Список использованных источников:
 
 
